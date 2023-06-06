@@ -3,8 +3,11 @@ Compiler Design Assignment
 
 #### Contributers
 Navya Khurana
+
 Ayush Behl
+
 Sudhit Jain
+
 Kartik Kapoor
 #### Running Steps
 - flex lex.l
