@@ -10,7 +10,7 @@ Sudhit Jain
 
 Kartik Kapoor
 #### Running Steps
-- flex lex.l
-- yacc -d yacc.y
+- flex compilerLex.l
+- yacc -d compilerYacc.y
 - gcc lex.yy.c y.tab.c  -o compiler
 - compiler.exe //to open the compiler
