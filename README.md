@@ -1,16 +1,14 @@
 # CDAssignment
 Compiler Design Assignment
 
-#### Contributers
-Navya Khurana
+### Contributers
+- Navya Khurana (2021hs70014)
+- Ayush Behl (2021hs70013)
+- Sudhit Jain (2021hs70038)
+- Kartik Kapoor (2021hs70005)
 
-Ayush Behl
-
-Sudhit Jain
-
-Kartik Kapoor
-#### Running Steps
+### Running Steps
 - flex compilerLex.l
-- yacc -d compilerYacc.y
+- bison -d compilerYacc.y
 - gcc lex.yy.c y.tab.c  -o compiler
 - compiler.exe //to open the compiler
