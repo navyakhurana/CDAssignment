@@ -10,5 +10,5 @@ Compiler Design Assignment
 ### Running Steps
 - flex compilerLex.l
 - bison -d compilerYacc.y
-- gcc lex.yy.c y.tab.c  -o compiler
+- gcc lex.yy.c compilerYacc.tab.c  -o compiler
 - compiler.exe //to open the compiler
